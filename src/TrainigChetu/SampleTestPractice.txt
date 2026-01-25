@@ -1,0 +1,131 @@
+byte	1 byte	8 bits	
+short	2 bytes	16 bits	
+int	4 bytes	32 bits	
+long	8 bytes	64 bits	
+float	4 bytes	32 bits	
+double	8 bytes	64 bits	
+char	2 bytes	16 bits	
+
+ // System.out.println(42 /6 % 2); //
+--------------------
+int x = 10;
+if(x = 5){
+    System.out.println("Yes");
+}
+-------------------
+int x = 5;
+        System.out.println(x++ + ++x);
+-------------
+int a = 5;
+        System.out.println(a++ + a++ + ++a); // a=5,6 + 6,7 + 8===> 5+6+8=>19
+---------
+String s1 = "Java";
+String s2 = "Java";
+System.out.println(s1 == s2);
+----------
+String s1 = new String("Java");
+String s2 = new String("Java");
+System.out.println(s1 == s2);
+-------------
+       String s1 = "Java";
+        String s2 = new String("Java");
+        String s3="java";
+        // System.out.println(s1 == s2);
+        // System.out.println(s1.equals(s2));
+        System.out.println(s1==s3);
+        System.out.println(s1.equals(s3));
+-------------------
+✅ 2️⃣ CODING ROUND QUESTIONS (CHETU LEVEL)
+🔹 Q1: Reverse a Number
+🔹 Q2: Palindrome Number
+🔹 Q3: Automorphic Number (VERY IMPORTANT)
+🔹 Q4: Sum of Digits until single digit
+🔹 Q5: Fibonacci Series
+------------------
+int n = 25;
+int sq = n * n;
+
+if(String.valueOf(sq).endsWith(String.valueOf(n)))
+    System.out.println("Automorphic");
+else
+    System.out.println("Not Automorphic");
+----------------------
+
+✅ 4️⃣ OUTPUT TRAP QUESTIONS (INTERVIEW FAVORITE 🔥)
+1 ) System.out.println(10/0);
+2) System.out.println(10.0/0);
+3) String s = null;
+   System.out.println(s.length());
+
+4) System.out.println('A' + 1);  A-65 Z- 90===>  a-> 97 z-122
+
+5) System.out.println(1 + 2 + "3" + 4 + 5);  // 3345 
+6) Default value of boolean variable? // false 
+
+7) Which package is imported automatically?
+   Answer: java.lang
+---------------
+8) System.out.println(42 / 6 % 2);  42/6=7 % 2 rem 1 so result is: 1
+🔹 Rule to remember---
+  / and % have same priority
+  Execution is left to right
+System.out.println(15 % 4 / 2); 15%4 rem 3 / 2 ques=1 final result 1
+
+System.out.println(5 + 10 % 4 * 2);// 5+2*2 => 5+4=9
+
+9) int x = 10;
+  System.out.println(x++ / 5 % 3); x++ → 10 (x becomes 11) 10 / 5 = 2 , 2 % 3 = 2
+    👉 Output: 2
+10) System.out.println(10.0 / 4 % 2);
+
+STEP 3: Write it as a Java 2D Array (Index-wise)
+
+P[0][0] = Mouse
+P[0][1] = Keyboard
+P[0][2] = Printer
+
+P[1][0] = Scanner
+P[1][1] = Barcode Scanner
+P[1][2] = Microphone
+------------------
+11)
+ int i = 1;
+    while(i++ <= 3)
+    System.out.print(i + " ");
+------------------
+
+for(int hour=1 ;i<=12 ; hour++){
+   for(int minute=0; minute<60 ; minute++){
+      System.out.println("Hour: "+hour +" Minute :"+minute);
+      }
+}
+----------------
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

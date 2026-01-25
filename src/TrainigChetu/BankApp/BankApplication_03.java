@@ -1,4 +1,4 @@
-package BankApp;
+package TrainigChetu.BankApp;
 
 import java.util.Scanner;
 
