@@ -1,10 +1,8 @@
 package TrainigChetu.LogicalProgram_02;
 
-import java.awt.*;
-
 public class SampleTestPaper {
     static void main() {
-      //  int x = 5;
+        int x = 5;
        // System.out.println((x++ + ++x));
 //        Character c=new Character('A');  // lang package
 //        Integer integer=new Integer(120);   // lang package
@@ -60,79 +58,15 @@ public class SampleTestPaper {
             System.out.println("Hello");
         }*/
 
-        /*String str1 = "HELLO";
+        String str1 = "HELLO";
         String str2 = "HELL";
 
         int result = str1.compareTo(str2);
 
-        System.out.println("Result: " + ("apple".compareTo("Banana")));*/
-
-     /*double p=16;
-     double q=25;
-
-         double result=Math.sqrt(p)*Math.sqrt(q);
-        System.out.println("Product p nad q is: "+result);
-        double cube= Math.pow(Math.cbrt(p), 2);
-        System.out.println(cube+" Cube ");*/
+        System.out.println("Result: " + ("apple".compareTo("Banana")));
 
 
-       /* String x="talent";
-        String y="matrix";
-        System.out.println(x.substring(3)); // ent
-        System.out.println(y.substring(3));  //rix
-
-        System.out.println(x.substring(3).concat(y.substring(3))); // entrix*/
-
-//        String a="developer";
-//        String b="java";
-//
-//        System.out.println(a.substring(2,6));  // velo   its mean start from 2 index and end with (6-1) i.e 5
-//        System.out.println(b.toUpperCase());
-//
-//        System.out.println(a.substring(2,6)+ b.toUpperCase());
-//        System.out.println(a.substring(1,4).concat(b.toUpperCase()));
-//
-       /* class Employee{
-            int id;
-            String name;
-            double salary;
-        }
-        Employee emp1=new Employee(101,"Sufi",1200.43);*/
-
-//        String s="information";   //rmation ==>
-//        System.out.println(s.substring(4).length());
-//        System.out.println(s.substring(4,s.length()-1));
-
-//        double A = 3;
-//        double B = 4;
-//
-//        System.out.println( Math.sqrt(Math.pow(A, 2) + Math.pow(B, 2)));
-//        double result = Math.sqrt(A*A + B*B);
-//        System.out.println(result);
 
 
-        // Question
-
-       // Robot sifra=new Robot(2.4,1.5,5.0);
-
-//        class report{
-//            int a, b;
-//            report(){
-//                a=10; b=15;
-//            }
-//            report(int x, int y){
-//                a=x;
-//                b=y;
-//            }
-//            void print(){
-//                System.out.println(a*b);  // 150 // 20
-//            }
-//        }
-//
-//           report r=new report();
-//          r.print();
-//        report pr=new report(4,5);
-//        pr.print();
-
-  }
+    }
 }
