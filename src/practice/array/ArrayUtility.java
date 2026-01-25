@@ -3,28 +3,51 @@ package practice.array;
 import java.util.Scanner;
 
 public class ArrayUtility {
-    // Method to take array input
-    public static int[] inputArray()
-    {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Please enter the number of elements: ");
-        int size = scanner.nextInt();
 
-        int[] nums = new int[size];
+    public static int[] inputArray() {
+        Scanner sc=new Scanner(System.in);
 
-        for (int i = 0; i < size; i++) {
-            System.out.print("Please enter element no " + (i + 1) + ": ");
-            nums[i] = scanner.nextInt();
+        System.out.println("Plz enter the number of the Element: ");
+        int size=sc.nextInt();
+        int[] nums=new int[size];
+        int i=0;
+        while(i<size){
+            System.out.println("Please enter element no "+(i+1) +": ");
+            nums[i]=sc.nextInt();
+            i++;
         }
         return nums;
-    }
+
+}
+
+ public static int[][] input2DArray(){
+     Scanner sc=new Scanner(System.in);
+     System.out.println("Enter no of rows:");
+     int rows=sc.nextInt();
+     System.out.println("Enter no of columns:");
+     int columns=sc.nextInt();
+
+     int[][] newArray=new int[rows][columns];
+     int i=0;
+     while(i<rows){
+
+         int j=0;
+         while(j<columns){
+             System.out.println("Please enter the element row :"+(i+1) +" , column :"+(j+1)+ " :");
+             newArray[i][j]= sc.nextInt();
+             j++;
+         }
+         i++;
+     }
+     return  newArray;
+ }
 
     // Method to print array elements
     public static void printArray(int[] nums) {
-       // System.out.println("Array elements are:");
-        for (int num : nums) {
-            System.out.print(num + " ");
-        }
-        System.out.println(); // for new line
+      int i=0;
+      while(i<nums.length){
+          System.out.print(nums[i]+" ");
+      }
+        System.out.println();
     }
 }
