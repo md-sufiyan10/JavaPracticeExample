@@ -1,4 +1,4 @@
-package TrainigChetu;
+package TrainigChetu.LogicalProgram_02;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package TrainigChetu;
+package TrainigChetu.LogicalProgram_02;
 
 public class _03IncDecOpretor {
     static void main() {

@@ -1,8 +1,4 @@
-package TrainigChetu;
-
-import java.lang.reflect.Array;
-import java.util.Collection;
-import java.util.Scanner;
+package TrainigChetu.LogicalProgram_02;
 
 public class SampleTestPaper {
     static void main() {

@@ -1,4 +1,4 @@
-package TrainigChetu;
+package TrainigChetu.LogicalProgram_02;
 
 public class _01PrimitiveDataType {
     static void main() {
